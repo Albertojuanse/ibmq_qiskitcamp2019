@@ -32,8 +32,9 @@ public class SwitchState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (!stop)
-            tmp.text = Mathf.Round(Random.value) <= Mathf.Epsilon ? state1 : state2;
+            tmp.text = Random.value < 0.5f ? state1 : state2;
 
     }
 }
