@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2010210445e4952b7f542246e42d2c, type: 3}
+  m_Name: QBitStateFiles
+  m_EditorClassIdentifier: 
+  one: {fileID: 21300000, guid: 5431b4b07dcd14655a8119271f59e8e7, type: 3}
+  zero: {fileID: 21300000, guid: e2695a73c56314f5a9f6ef6fd13a3b19, type: 3}
+  right: {fileID: 21300000, guid: 14d80ca55afb2419f9dc9872b27046ab, type: 3}
+  left: {fileID: 21300000, guid: 9dc61ae7e845f41dabce3755999a020c, type: 3}
+  darkQBit: {fileID: 21300000, guid: b208e4b27758a4a01a1e72e34aee8cc1, type: 3}
