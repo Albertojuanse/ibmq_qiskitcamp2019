@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 592682215607047966}
   - component: {fileID: 2549967465557059409}
   m_Layer: 0
-  m_Name: tweetBob2
+  m_Name: tweet2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1091,7 +1091,7 @@ GameObject:
   - component: {fileID: 2627178954341172216}
   - component: {fileID: 5312745309854313200}
   m_Layer: 0
-  m_Name: tweetAlice1
+  m_Name: tweet3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 585860440106484291}
   - component: {fileID: 2947195619217838771}
   m_Layer: 0
-  m_Name: tweetBob1
+  m_Name: tweet1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1790,7 +1790,7 @@ GameObject:
   - component: {fileID: 1805829433362270661}
   - component: {fileID: 5327195726758669089}
   m_Layer: 0
-  m_Name: qwitter
+  m_Name: qwitter_3tweets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
