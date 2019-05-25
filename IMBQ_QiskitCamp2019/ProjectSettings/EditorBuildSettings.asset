@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/_Scenes/Menu.unity
+    guid: 4a07fa43eb6614b3e8ab74966c63dd70
+  - enabled: 1
+    path: Assets/_Scenes/QGame.unity
+    guid: bdc5d9b5443954e0bb29fa2ba0c2a96c
   m_configObjects: {}
