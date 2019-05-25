@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class SelectionPanel : MonoBehaviour
 {
 
+    public Animator globalAnimator;
+
+    [Space(10)]
     public Button addBtt;
     public SwitchState switchState1;
     public SwitchState switchState2;
@@ -32,6 +35,8 @@ public class SelectionPanel : MonoBehaviour
         switchState1.Restart();
         switchState2.Restart();
         currentIndex++;
+
+        globalAnimator.SetInteger("QbitsSelected", currentIndex);
     }
 
 }
