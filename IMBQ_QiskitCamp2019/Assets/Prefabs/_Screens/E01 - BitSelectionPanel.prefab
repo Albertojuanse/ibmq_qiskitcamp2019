@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8226639634634912937
 RectTransform:
   m_ObjectHideFlags: 0
@@ -89,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af04bef7ff54948a0ba386f9b55a6b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globalAnimator: {fileID: 0}
   addBtt: {fileID: 8226639634693658032}
   switchState1: {fileID: 8226639634618366200}
   switchState2: {fileID: 8226639634133801058}

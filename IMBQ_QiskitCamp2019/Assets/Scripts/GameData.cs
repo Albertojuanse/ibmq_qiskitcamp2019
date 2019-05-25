@@ -12,11 +12,16 @@ public class GameData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        selectedBitsInfo = new List<QBitInfo>(20);
+        selectedBitsInfo = new List<QBitInfo>();
 
-        for (int i = 5; i < selectedBitsInfo.Count; i++) {
-            selectedBitsInfo[i].SetRandom();
+        for (int i = 0; i < qBitsToSelect; i++) {
+            selectedBitsInfo.Add(new QBitInfo());
+            if (i >= 5) {
+                selectedBitsInfo[i].SetRandom();
+            }
         }
+
+        GetComponent<Animator>().SetTrigger("Start");
 
     }
 
