@@ -46,7 +46,8 @@ public class LookAtQBitsEva : MonoBehaviour
     }
 
     private void OnStateCollapse() {
-        string selectedAxis = currentIndex >= 5 ? Random.value < 0.5f ? "x" : "z" : tmp.text.ToLower();
+        //string selectedAxis = currentIndex >= 5 ? Random.value < 0.5f ? "x" : "z" : tmp.text.ToLower();
+        string selectedAxis = currentIndex >= 5 ? UnityQASM.unityQASM.GetRandomBool() ? "x" : "z" : tmp.text.ToLower();
         bool isX = selectedAxis == "x";
         bool currentBaseIsX = referenceQBits[currentIndex].qBase.ToLower() == "x";
         bool readSuccess = isX == currentBaseIsX;
