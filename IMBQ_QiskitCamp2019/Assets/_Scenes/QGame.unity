@@ -569,7 +569,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064366551}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9faf576bf82dd44d5b6111a7ee9617ad, type: 2}
   m_CullingMode: 0
@@ -780,7 +780,7 @@ PrefabInstance:
     - target: {fileID: 8909576160374065704, guid: 7292fd007436041478cae23e1e56c7c5,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3366499605424644346, guid: 7292fd007436041478cae23e1e56c7c5,
         type: 3}
@@ -2403,6 +2403,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
         type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
       propertyPath: table1
       value: 
       objectReference: {fileID: 1538723877}
@@ -2411,6 +2416,36 @@ PrefabInstance:
       propertyPath: table2
       value: 
       objectReference: {fileID: 929988716}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2064366553}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264375689961957889, guid: 7292fd007436041478cae23e1e56c7c5,
+        type: 3}
+      propertyPath: OnConfirmation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ResultsChecked
+      objectReference: {fileID: 0}
     - target: {fileID: 211548669984497120, guid: 7292fd007436041478cae23e1e56c7c5,
         type: 3}
       propertyPath: texts.Array.size

@@ -19,8 +19,8 @@ public class ComparisonConfirmation : MonoBehaviour
         if (confirmed) return;
 
         for (int i = 0; i < 5; i++) {
-            if (!(table1.texts[i] == table2.texts[i] && !table1.isCrossOutList[i] ||
-                  table1.texts[i] != table2.texts[i] && table1.isCrossOutList[i])) {
+            if (!(table1.texts[i].text.ToLower() == table2.texts[i].text.ToLower() && !table1.isCrossOutList[i] ||
+                  table1.texts[i].text.ToLower() != table2.texts[i].text.ToLower() && table1.isCrossOutList[i])) {
                 return;
             }
         }
