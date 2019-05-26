@@ -8,6 +8,7 @@ public class singleTableCrossOut : MonoBehaviour
 
     public List<Image> crossOutImageList = new List<Image>(5);
     public List<bool> isCrossOutList = new List<bool>(5);
+    public List<TMPro.TextMeshProUGUI> texts = new List<TMPro.TextMeshProUGUI>(5);
 
 
 
