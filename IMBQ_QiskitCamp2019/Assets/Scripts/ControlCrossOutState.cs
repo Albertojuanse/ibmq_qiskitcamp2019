@@ -14,7 +14,7 @@ public class ControlCrossOutState : MonoBehaviour
     void Start()
     {
         Toggle myToggle = GetComponent<Toggle>();
-        myToggle.onValueChanged.AddListener(delegate
+        myToggle.onValueChanged.AddListener((b) =>
         {
             ToggleValueChanged(myToggle); 
         });
