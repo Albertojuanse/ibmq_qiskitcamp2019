@@ -17,7 +17,7 @@ public class QBitManager : MonoBehaviour
 
     [Space(10)]
     public bool hidden = false;
-    public bool stablished => QBase != "" && QValue != "";
+    public bool stablished => !string.IsNullOrEmpty(QBase) && !string.IsNullOrEmpty(QValue);
 
     // Start is called before the first frame update
     void Start()
@@ -28,17 +28,17 @@ public class QBitManager : MonoBehaviour
     // Update is called once per frame
     void Update() {
         hiddenImage.gameObject.SetActive(hidden);
-        bgImage.gameObject.SetActive(!hidden);
 
         if (stablished) {
+
             if (QBase.ToUpper() == "Z") {
                 bgImage.sprite = QValue == "1" ? states.one : states.zero;
             } else {
                 bgImage.sprite = QValue == "1" ? states.left : states.right;
             }
+            text.text = QValue + QBase.ToUpper();
         }
-        bgImage.gameObject.SetActive(stablished);
+        bgImage.gameObject.SetActive(stablished && !hidden);
         text.gameObject.SetActive(stablished);
-        text.text = QValue + QBase.ToUpper();
     }
 }

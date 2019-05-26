@@ -7,7 +7,11 @@ public class GameData : MonoBehaviour
 
     public int qBitsToSelect = 20;
     public List<QBitInfo> selectedBitsInfo;
+    public List<QBitInfo> evaReadQBitsInfo;
+    public List<QBitInfo> bobReadQBitsInfo;
 
+    public int evaSuccessCount = 0;
+    public int bobSuccessCount = 0;
 
     // Start is called before the first frame update
     void Awake()
