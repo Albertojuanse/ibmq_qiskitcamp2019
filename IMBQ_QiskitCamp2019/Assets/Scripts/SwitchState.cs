@@ -24,6 +24,7 @@ public class SwitchState : MonoBehaviour
 
     public void Stop() {
         stop = true;
+        tmp.text = UnityQASM.unityQASM.GetRandomBool() ? state1 : state2;
     }
     public void Restart() {
         stop = false;
